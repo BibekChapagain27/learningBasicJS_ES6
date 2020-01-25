@@ -118,9 +118,26 @@
 // add(4, 5, 7, 8, 12)
 
 
-//includes
+// //includes
 
-let numArray = [1,2,3,4,5];
+// let numArray = [1,2,3,4,5];
 
-console.log(numArray.includes(2));
-console.log(numArray.includes(8));
+// console.log(numArray.includes(2));
+// console.log(numArray.includes(8));
+
+
+// /// Import & Export
+
+// import { data } from './example.js';
+
+// console.log(data);
+
+
+// //padend & padstart
+
+
+// let example = 'Dylan';
+
+
+// console.log(example.padStart(10, 'a'));
+// console.log(example.padEnd(10, 'a'));
