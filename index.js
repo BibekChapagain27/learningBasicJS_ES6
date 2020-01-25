@@ -117,3 +117,10 @@
 
 // add(4, 5, 7, 8, 12)
 
+
+//includes
+
+let numArray = [1,2,3,4,5];
+
+console.log(numArray.includes(2));
+console.log(numArray.includes(8));
