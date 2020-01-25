@@ -18,19 +18,38 @@
 
 //Destructuring Objects
 
-const personalInformation = {
-    firstName: 'Bibek',
-    lastName: 'Chapagain',
-    city: 'Kathmandu',
-    state: 'Texas',
-    zipCode: 73301
-};
+// const personalInformation = {
+//     firstName: 'Bibek',
+//     lastName: 'Chapagain',
+//     city: 'Kathmandu',
+//     state: 'Texas',
+//     zipCode: 73301
+// };
 
-console.log(`${personalInformation.firstName} ${personalInformation.lastName} is from ${personalInformation.city}`);
+// console.log(`${personalInformation.firstName} ${personalInformation.lastName} is from ${personalInformation.city}`);
 
-const {firstName: fn, lastName: ln, city: ci} = personalInformation;
-
-
-console.log(`${fn} Prasad ${ln} is from ${ci}`);
+// const {firstName: fn, lastName: ln, city: ci} = personalInformation;
 
 
+// console.log(`${fn} Prasad ${ln} is from ${ci}`);
+
+
+/////Destructuring array
+
+
+// let [firstName, middleName, lastName] = ['Bibek', 'Prasad', 'Chapagain'];
+
+// lastName = 'Guragain';
+
+// console.log(lastName)
+
+
+////Object literals
+
+// function addressMaker(city, state) {
+//     const newAdress = {city, state};
+    
+//     console.log(newAdress);
+// }
+
+// addressMaker('Kathmandu', 'Bagmati');
