@@ -54,3 +54,22 @@
 
 // addressMaker('Kathmandu', 'Bagmati');
 
+
+////For of loop
+
+let incomes = [62000, 67000, 75000];
+let total = 0;
+
+for (const income of incomes) {
+    console.log(income)
+    total += income;
+}
+
+console.log(total);
+
+let fullName = "Bibek Chapagain";
+
+
+for (const letter of fullName) {
+    console.log(letter);
+}
