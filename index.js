@@ -55,21 +55,30 @@
 // addressMaker('Kathmandu', 'Bagmati');
 
 
-////For of loop
+// ////For of loop
 
-let incomes = [62000, 67000, 75000];
-let total = 0;
+// let incomes = [62000, 67000, 75000];
+// let total = 0;
 
-for (const income of incomes) {
-    console.log(income)
-    total += income;
-}
+// for (const income of incomes) {
+//     console.log(income)
+//     total += income;
+// }
 
-console.log(total);
+// console.log(total);
 
-let fullName = "Bibek Chapagain";
+// let fullName = "Bibek Chapagain";
 
 
-for (const letter of fullName) {
-    console.log(letter);
-}
+// for (const letter of fullName) {
+//     console.log(letter);
+// }
+
+
+//Spread Operator
+
+
+let example1 = [1,2,3,4,5,6];
+let example2 = [...example1];
+example2.push(true);
+console.log(example2);
